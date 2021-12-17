@@ -2,6 +2,9 @@
     "presets": [
         "@babel/preset-env", // Compila ECMAScript 5 en adelante 
         "@babel/preset-react" // Compila JSX y React 
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime"
     ]
 }
 
